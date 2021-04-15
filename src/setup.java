@@ -1,9 +1,12 @@
+import java.util.ArrayList;
 
 public class setup implements DataBase {
 	String name;
 	String rank;
 	String career;
 	String dept;
+	
+	ArrayList<String> fileList = new ArrayList<>();
 	
 	public String getName() {
 		return name;
@@ -35,5 +38,5 @@ public class setup implements DataBase {
 	
 	public void setDept(String dept) {
 		this.dept = dept;
-	}
+	}	
 }
