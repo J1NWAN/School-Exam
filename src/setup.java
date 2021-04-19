@@ -1,12 +1,9 @@
-import java.util.ArrayList;
-
 public class setup implements DataBase {
 	String name;
 	String rank;
 	String career;
 	String dept;
-	
-	ArrayList<String> fileList = new ArrayList<>();
+	String path = "out.txt";
 	
 	public String getName() {
 		return name;
@@ -39,4 +36,12 @@ public class setup implements DataBase {
 	public void setDept(String dept) {
 		this.dept = dept;
 	}	
+	
+	public String getPath() {
+		return path;
+	}
+	
+	public void setPath(String path) {
+		this.path = path;
+	}
 }

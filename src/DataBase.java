@@ -12,4 +12,7 @@ public interface DataBase {
 	
 	public String getDept();
 	public void setDept(String dept);
+	
+	public String getPath();
+	public void setPath(String path);
 }
