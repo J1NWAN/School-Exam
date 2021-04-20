@@ -45,7 +45,8 @@ public class Data {
 			System.err.println("파일 불러오기 실패 !");
 		}
 	}
-
+	
+	// 유저 생성
 	public void userCreate() {
 		List.clear();
 
